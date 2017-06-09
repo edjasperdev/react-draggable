@@ -1,0 +1,36 @@
+.app {
+  text-align: center;
+  background-color: #154374; }
+  .app h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0; }
+  .app .photo-list {
+    font-family: 'Open Sans', sans-serif; }
+    .app .photo-list .placeholder {
+      background-color: grey;
+      height: 200px;
+      width: 350px;
+      border-radius: 5%; }
+      .app .photo-list .placeholder:before {
+        content: "Drop here";
+        text-align: center; }
+    .app .photo-list section {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .app .photo-list section .thumbnail {
+        border-radius: 5%;
+        height: 200px;
+        width: 350px;
+        margin: 10px;
+        box-shadow: 14px 14px 26px 0 rgba(50, 50, 50, 0.6); }
+        .app .photo-list section .thumbnail img {
+          border-radius: 5%;
+          height: 200px;
+          width: 350px;
+          background-size: contain; }
